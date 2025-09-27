@@ -3,9 +3,9 @@ package app
 import (
 	"time"
 
-	"github.com/indiefan/home_assistant_nanit/pkg/baby"
-	"github.com/indiefan/home_assistant_nanit/pkg/client"
-	"github.com/indiefan/home_assistant_nanit/pkg/utils"
+	"github.com/miltzi/home_assistant_nanit/pkg/baby"
+	"github.com/miltzi/home_assistant_nanit/pkg/client"
+	"github.com/miltzi/home_assistant_nanit/pkg/utils"
 	"github.com/rs/zerolog/log"
 )
 

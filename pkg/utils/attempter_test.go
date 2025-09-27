@@ -8,7 +8,7 @@ import (
 
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
-	"github.com/indiefan/home_assistant_nanit/pkg/utils"
+	"github.com/miltzi/home_assistant_nanit/pkg/utils"
 )
 
 func TestRunWithPerseverance(t *testing.T) {

@@ -7,22 +7,22 @@ Create `docker-compose.yml` file somewhere on your machine.
 Adjust following example (see [.env.sample](../.env.sample) for configuration options).
 
 ```yaml
-version: '2'
+version: "2"
 services:
   nanit:
     # Image to pull, adjust the :suffix for your version tag
-    image: indiefan/nanit:latest
+    image: miltzi/nanit:latest
     # Makes the container auto-start whenever you restart your computer
     restart: unless-stopped
     # Expose the RTMP port
     ports:
-    - 1935:1935
+      - 1935:1935
     # Configuration (see .env.sample file for all the options)
     # Notice: Mind the quotes, whole pairs are quoted instead of just values. If your password contains $ character, replace it with double $$ to avoid interpolation.
     environment:
-    - "NANIT_EMAIL=your@email.tld"
-    - "NANIT_PASSWORD=XXXXXXXXXXXXX"
-    - "NANIT_RTMP_ADDR=xxx.xxx.xxx.xxx:1935"
+      - "NANIT_EMAIL=your@email.tld"
+      - "NANIT_PASSWORD=XXXXXXXXXXXXX"
+      - "NANIT_RTMP_ADDR=xxx.xxx.xxx.xxx:1935"
 ```
 
 ## Control the app container

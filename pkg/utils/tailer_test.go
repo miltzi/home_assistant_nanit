@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/indiefan/home_assistant_nanit/pkg/utils"
+	"github.com/miltzi/home_assistant_nanit/pkg/utils"
 )
 
 func TestTailer(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 
 	"github.com/rs/zerolog/log"
-	"github.com/indiefan/home_assistant_nanit/pkg/app"
-	"github.com/indiefan/home_assistant_nanit/pkg/utils"
+	"github.com/miltzi/home_assistant_nanit/pkg/app"
+	"github.com/miltzi/home_assistant_nanit/pkg/utils"
 )
 
 func ensureDataDirectories() app.DataDirectories {

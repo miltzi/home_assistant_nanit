@@ -1,4 +1,4 @@
-module github.com/indiefan/home_assistant_nanit
+module github.com/miltzi/home_assistant_nanit
 
 go 1.24
 

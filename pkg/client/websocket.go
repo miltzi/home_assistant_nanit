@@ -8,9 +8,9 @@ import (
 
 	"github.com/rs/zerolog/log"
 	"github.com/sacOO7/gowebsocket"
-	"github.com/indiefan/home_assistant_nanit/pkg/baby"
-	"github.com/indiefan/home_assistant_nanit/pkg/session"
-	"github.com/indiefan/home_assistant_nanit/pkg/utils"
+	"github.com/miltzi/home_assistant_nanit/pkg/baby"
+	"github.com/miltzi/home_assistant_nanit/pkg/session"
+	"github.com/miltzi/home_assistant_nanit/pkg/utils"
 	"google.golang.org/protobuf/proto"
 )
 

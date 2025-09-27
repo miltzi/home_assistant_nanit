@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/rs/zerolog/log"
-	"github.com/indiefan/home_assistant_nanit/pkg/baby"
+	"github.com/miltzi/home_assistant_nanit/pkg/baby"
 )
 
 // Revision - marks the version of the structure of a session file. Only files with equal revision will be loaded
