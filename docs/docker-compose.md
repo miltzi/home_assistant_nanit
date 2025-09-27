@@ -11,7 +11,7 @@ version: "2"
 services:
   nanit:
     # Image to pull, adjust the :suffix for your version tag
-    image: miltzi/nanit:latest
+    image: miltzi/home_assistant_nanit:latest
     # Makes the container auto-start whenever you restart your computer
     restart: unless-stopped
     # Expose the RTMP port

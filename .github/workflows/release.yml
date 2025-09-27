@@ -5,7 +5,7 @@ on:
     types: [published]
 
 env:
-  REGISTRY_IMAGE: miltzi/nanit
+  REGISTRY_IMAGE: miltzi/home_assistant_nanit
 
 jobs:
   build:
